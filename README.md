@@ -1,3 +1,50 @@
+
+## Step-by-Step: Deploy Jekyll to GitHub Pages
+1. ✅ Create a GitHub Repository
+Go to github.com/new
+
+Name it something like: blog
+
+Choose Public
+
+Don't initialize with README (you’ll push your local files)
+
+2. ✅ Prepare Your Local Jekyll Site
+Inside your myblog folder:
+
+git init
+# Add all files
+git add .
+# Commit changes
+git commit -m "Initial Jekyll blog"
+# Add remote (replace with your actual repo URL)
+git remote add origin https://github.com/dadinjaenudin/blog.git
+# Push to GitHub
+git push -u origin master
+
+
+### Enable GitHub Pages
+Go to your repo:
+👉 https://github.com/dadinjaenudin/blog
+
+Then:
+Go to Settings tab
+Scroll down to Pages (left sidebar or bottom area)
+Under Source, select:
+
+Branch: main
+
+Folder: / (root)
+
+Click Save
+You should now see a green confirmation banner like:
+
+Your site is published at https://dadinjaenudin.github.io/blog/
+
+
+
+
+
 Freshman21
 ==========
 
