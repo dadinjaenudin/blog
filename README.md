@@ -18,6 +18,7 @@ git add .
 # Commit changes
 git commit -m "Initial Jekyll blog"
 # Add remote (replace with your actual repo URL)
+git remote rm origin
 git remote add origin https://github.com/dadinjaenudin/blog.git
 # Push to GitHub
 git push -u origin master
